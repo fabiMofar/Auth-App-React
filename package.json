@@ -1,0 +1,29 @@
+{
+  "name": "auth-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiMofar/Auth-Rpp-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiMofar/Auth-Rpp-React/issues"
+  },
+  "homepage": "https://github.com/fabiMofar/Auth-Rpp-React#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2"
+  }
+}
